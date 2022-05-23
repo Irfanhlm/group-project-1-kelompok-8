@@ -1,0 +1,277 @@
+/* navbar */
+.navbar-nav {
+    font-family: mulish;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar {
+    width: auto;
+    height: 90px;
+}
+.nav-item {
+    padding: 10px;
+}
+.btn-primary {
+    margin-left: 51px;
+    background-color: white;
+    border: 1px solid #F47522;
+    color: #F47522 !important;
+    border-radius: 40px;
+    width: 130px;
+}
+.btn-primary:hover {
+    background-color: white;
+    border-color: #F47522;
+}
+.navbar-brand{
+    margin-left: 60px;
+}
+.brandlogo {
+    width: 110px;
+}
+.navbar-collapse{
+    margin-right: 60px;
+}
+.nav-link{
+    color: #19345E;
+}
+.nav-link:hover {
+    color: #F47522;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: #EDF6FF;
+    height: 743px;
+}
+.info-jumbotron {
+    margin-top: 161px;
+}
+.jumbotron h4 {
+    text-transform: uppercase;
+    font-family: mulish;
+    font-weight: 900;
+}
+.jumbotron h1 {
+    font-family: roboto;
+    font-weight: 700;
+}
+.iJumbotron {
+    width: 420px;
+    margin-left: 110px;
+}
+.tJumbotron {
+    color: #19345E;
+    margin-right: 110px;
+}
+.tJumbotron h4 {
+    font-size: 25px;
+}
+.tJumbotron p {
+    font-size: 17px;
+    font-family: mulish;
+    font-weight: 700;
+}
+.display {
+    font-size: 45px;
+}
+.display-4 span {
+    color: #F47522;
+}
+
+/* info panel */
+.info-panel{
+    box-shadow: 0 3px 6px #00000019;
+    border-radius: 100px;
+    width: 814px;
+    height: 110px;
+    margin-bottom: 60px;
+    color: #19345E;
+}
+.panel {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+.info-panel img {
+    width: 40px;
+    float: left;
+    padding: 8px;
+    background-color: #F47522;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.info-panel h4 {
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 700;
+}
+.info-panel p {
+    font-size: 14px;
+    font-family: mulish;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.pro {
+    border-right: 1px solid #aaaaaa84;
+    margin-right: 50px;
+    display: block;
+    height: 41px;
+}
+.exp {
+    border-right: 1px solid #aaaaaa84;
+    margin-right: 50px;
+    display: block;
+    height: 41px;
+}
+
+
+/* about */
+.pAbout{
+    text-align: center;
+    font-family: mulish;
+    font-size: 45px;
+    font-weight: 700;
+    color: #19345E;
+}
+.bAbout{
+    width: 100%;
+}
+.bAbout-left{
+    border-top: 2px solid #F47522;
+    margin-top: -30px;
+    margin-left: 440px;
+    width: 35px;
+}
+.bAbout-right{
+    border-bottom: 2px solid #F47522;
+    margin-top: -2px;
+    margin-left: 640px;
+    width: 35px;
+}
+.aJumbotron {
+    background-image: url(/assets/bg-people@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 478px;
+    position: relative;
+    border: 1px solid #707070b8;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.aJumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(25, 52, 94, 0.7);
+    /* background-color: #19345E;  */
+    position: absolute;
+    bottom: 0;  
+}
+.pJumbotron {
+    position: absolute;
+    text-align: center;
+    font-family: mulish;
+    color: white;
+    margin-top: -400px;
+    margin-left: 180px;
+    margin-right: 220px;
+}
+.pJumbotron h4 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.pJumbotron p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* meet our team */
+.pTeam h4{
+    text-align: center;
+    font-family: mulish;
+    font-size: 45px;
+    font-weight: 700;
+    color: #19345E;
+}
+.pTeam p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: -5px;
+}
+.bTeam{
+    width: 100%;
+}
+.bTeam-left{
+    border-top: 2px solid #F47522;
+    margin-top: -70px;
+    margin-left: 340px;
+    width: 35px;
+}
+.bTeam-right{
+    border-bottom: 2px solid #F47522;
+    margin-top: -2px;
+    margin-left: 740px;
+    width: 35px;
+}
+
+.info-team{
+    margin-top: 100px;
+}
+.card{
+    border: none;
+}
+.card-img-top {
+    border-radius: 0;
+    width: 225px;
+    margin-left: 33px;
+}
+.card-body{
+    text-align: center;
+}
+.card-body h5{
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F47522;
+}
+.card-body p {
+    font-family: poppins;
+    font-size: 15px;
+    color: #19345E;
+}
+.btn-card {
+    border: none;
+    margin-bottom: 60px;
+}
+.info-team a {
+    color: #19345E !important;
+}
+
+/* blog */
+.pBlog{
+    text-align: center;
+    font-family: mulish;
+    font-size: 45px;
+    font-weight: 700;
+    color: #19345E;
+}
+.bBlog{
+    width: 100%;
+}
+.bBlog-left{
+    border-top: 2px solid #F47522;
+    margin-top: -30px;
+    margin-left: 440px;
+    width: 35px;
+}
+.bBlog-right{
+    border-bottom: 2px solid #F47522;
+    margin-top: -2px;
+    margin-left: 640px;
+    width: 35px;
+}
