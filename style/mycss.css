@@ -1,0 +1,139 @@
+/* Hover and Active Start */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #f47522;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f47522;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #19345e;
+}
+
+.navbar-light .navbar-toggler {
+  color: #19345e;
+  border-color: #f47522;
+}
+
+.navbar-toggler {
+  border-radius: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* Hover and Active End */
+
+/* Margin n Padding Start */
+.cst-ms-1 {
+  margin-left: 10%;
+}
+
+.cst-me-1 {
+  margin-right: 10%;
+}
+
+.cst-mt-1 {
+  margin-top: 5%;
+}
+
+.cst-w {
+  width: 33.3333%;
+}
+
+.cst-container {
+  position: relative;
+}
+/* Margin Width Padding End */
+
+/* Button Start */
+.cst-btn {
+  background-color: #f47522;
+  color: #fff;
+  border-radius: 30px;
+  padding: 4px 34px;
+  margin-left: 2rem;
+}
+/* Button End */
+
+/* HR Box Start */
+.cst-hr-1 {
+  border: 1px solid #f47522;
+  width: 30px;
+  opacity: 10;
+}
+
+.cst-hr-2 {
+  background-color: inherit;
+  border-top: 1px dotted #19345e;
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 10;
+}
+
+.cst-box-1 {
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  border: 10px solid #f47522;
+}
+
+.cst-box-2 {
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  border: 10px solid #19345e;
+}
+/* HR Box End */
+
+/* Font Start */
+.cst-muli-xbold {
+  font-family: "Muli" f;
+  font-weight: bolder;
+  color: #19345e;
+}
+
+.cst-muli-bold {
+  font-family: "Muli";
+  font-weight: 800;
+  color: #19345e;
+}
+
+.cst-poppins-bold {
+  font-family: "Poppins";
+  font-weight: 800;
+  color: #19345e;
+}
+
+.cst-poppins-reg {
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #19345e;
+}
+
+.cst-arial-reg {
+  font-family: "Arial", sans-serif;
+  font-weight: 100;
+  color: #19345e;
+}
+/* Font End */
+
+/* Background Start */
+.cst-bg-footer {
+  background-color: #19345e;
+}
+
+.cst-body-bg {
+  background-image: url("/assets/ornament_batik.png"), url("/assets/ornament_batik.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 12.5%;
+}
+/* Background Start */
