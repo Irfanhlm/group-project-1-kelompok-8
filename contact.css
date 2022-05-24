@@ -1,0 +1,81 @@
+/* NAVBAR */
+.brandlogo {
+        width: 80px;
+    }
+
+/* get in touch */
+/* .aContainer{
+    margin-bottom: 40%;
+}
+.pAbout{
+    text-align: center;
+    font-family: mulish;
+    font-size: 45px;
+    font-weight: 700;
+    color: #19345E;
+}
+.bAbout{
+    width: 100%;
+}
+.bAbout-left{
+    border-top: 2px solid #F47522;
+    margin-left: 34%;
+    margin-top: -3%;
+    width: 35px;
+}
+.bAbout-right{
+    border-bottom: 2px solid #F47522;
+    margin-left: 63%;
+    width: 35px;
+} */
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-nav {
+        font-family: mulish;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .navbar {
+        height: 90px;
+        box-shadow: 0 3px 6px #C1C3C736;
+        margin-bottom: 20%;
+    }
+    .nav-item {
+        padding: 10px;
+    }
+    .nav-item a{
+        text-align: center;
+    }
+    .btn-nav {
+        margin-left: 51px;
+        background-color: #F47522;
+        border: 1px solid #F47522;
+        color: #FFFFFF !important;
+        border-radius: 40px;
+        width: 130px;
+    }
+    .btn-nav:hover {
+        background-color: #F47522;
+        border-color: #F47522;
+    }
+    .navbar-brand{
+        margin-left: 60px;
+    }
+    .brandlogo {
+        width: 110px;
+    }
+    .navbar-collapse{
+        margin-right: 60px;
+    }
+    .nav-link{
+        color: #19345E;
+    }
+    .nav-link:hover {
+        color: #F47522;
+    }
+}

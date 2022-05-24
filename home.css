@@ -7,11 +7,15 @@
 .navbar {
     width: auto;
     height: 90px;
+    box-shadow: 0 3px 6px #C1C3C736;
 }
 .nav-item {
     padding: 10px;
 }
-.btn-primary {
+.nav-item a{
+    text-align: center;
+}
+.btn-nav {
     margin-left: 51px;
     background-color: white;
     border: 1px solid #F47522;
@@ -19,7 +23,7 @@
     border-radius: 40px;
     width: 130px;
 }
-.btn-primary:hover {
+.btn-nav:hover {
     background-color: white;
     border-color: #F47522;
 }
@@ -78,6 +82,30 @@
 .display-4 span {
     color: #F47522;
 }
+.tJumbotron a {
+    text-align: center;
+    padding-bottom: 6%;
+    color: #FFFFFF !important;
+    font-family: mulish;
+    font-weight: 700;
+    font-size: 15px;
+}
+.btn-mt {
+    width: 55%;
+    margin-left: -1%;
+    height: 40px;
+    background-color: #F47522;
+    border-radius: 50px;
+    box-shadow: 0 3px 6px #00000029;
+}
+.btn-mt img{
+    width: 20px;
+}
+.btn-mt:hover{
+    color: #F47522;
+    background-color: #F47522;
+}
+
 
 /* info panel */
 .info-panel{
@@ -200,7 +228,10 @@
 }
 .pTeam p {
     text-align: center;
+    font-family: mulish;
+    font-weight: 700;
     font-size: 17px;
+    color: #19345E;
     margin-top: -5px;
 }
 .bTeam{
@@ -218,20 +249,42 @@
     margin-left: 740px;
     width: 35px;
 }
-
+.img-acc{
+    position: relative;
+    margin-top: -5%;
+}
+.img-acc img{
+    width: 16%;
+}
 .info-team{
-    margin-top: 100px;
+    margin-bottom: 10%;
 }
 .card{
     border: none;
+    position: absolute;
+    margin-top: -7%;
+}
+.card:hover{
+    margin-top: -10%;
 }
 .card-img-top {
     border-radius: 0;
     width: 225px;
     margin-left: 33px;
+    position: relative;
+}
+.bCard {
+    border: 10px solid #F47522;
+    width: 225px;
+    height: 265px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 18px;
+    margin-top: 15px;
 }
 .card-body{
     text-align: center;
+    margin-top: 19px;
 }
 .card-body h5{
     font-family: roboto;
@@ -243,18 +296,29 @@
     font-family: poppins;
     font-size: 15px;
     color: #19345E;
+    margin-top: -5px;
 }
 .btn-card {
     border: none;
-    margin-bottom: 60px;
+    margin-right: 3%;
+    float: right;
+    margin-top: 30%;
 }
 .info-team a {
     color: #19345E !important;
+    font-size: 16px;
+    font-family: mulish;
+    font-weight: 500;
 }
 
 /* blog */
+.blogs{
+    margin-top: 10%;
+}
 .pBlog{
     text-align: center;
+}
+.pBlog h4 {
     font-family: mulish;
     font-size: 45px;
     font-weight: 700;
@@ -262,16 +326,98 @@
 }
 .bBlog{
     width: 100%;
+    margin-top: -3%;
 }
 .bBlog-left{
     border-top: 2px solid #F47522;
-    margin-top: -30px;
-    margin-left: 440px;
+    margin-left: 34%;
     width: 35px;
 }
 .bBlog-right{
     border-bottom: 2px solid #F47522;
-    margin-top: -2px;
-    margin-left: 640px;
+    margin-left: 63%;
     width: 35px;
+}
+.blog-img-top {
+    width: 285px;
+    margin-bottom: 10%;
+}
+.blog-title {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #19345E;
+}
+.larry-text{
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #707070;
+    margin-top: 7%;
+    padding-right: 5%;
+}
+.blog-text{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #19345E;
+    padding-right: 10%;
+}
+.btn-blog {
+    font-family: poppins;
+    font-size: 14px;
+    border: none;
+    color: #19345E !important;
+    margin-left: 60%;
+    text-decoration: underline;
+}
+
+
+/* footer */
+footer {
+    background-color: #19345E;
+    color: #FFFFFF;
+    width: 100%;
+    height: 141px;
+    margin-top: 20%;
+}
+.brand-img {
+    width: 110px;
+    margin: 42px 0;
+}
+.foo-sosmed{
+    margin: 40px 0;
+}
+.foo-sosmed p {
+    font-family: mulish;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 8%;
+}
+.foo-sosmed img {
+    width: 20px;
+    margin-left: 8%;
+    margin-top: -4%;
+}
+.foo-copy{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.foo-copy p {
+    font-family: mulish;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.d-flex{
+    background-color: #19345E;
+}
+.d-flex p {
+    color: white;
+}
+.alta{
+    width: 200px;
 }
