@@ -80,6 +80,9 @@ section{
     margin-left: 3%;
     font-size: 14px;
 }
+sup {
+        color: #FF0303;
+    }
 
 
 /* FOOTER */
@@ -118,7 +121,6 @@ footer {
     font-size: 10px;
     margin-top: 80%;
 }
-
 .d-flex{
     background-color: #19345E;
 }
@@ -271,6 +273,9 @@ footer {
     .btn-primary:hover{
         background-color: #F47522;
         border-color: #F47522;
+    }
+    sup {
+        color: #FF0303;
     }
 
 

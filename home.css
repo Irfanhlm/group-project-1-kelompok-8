@@ -1,423 +1,438 @@
 /* navbar */
 .navbar-nav {
-    font-family: mulish;
-    font-size: 15px;
-    font-weight: 500;
+  /* font-family: mulish;
+  font-size: 15px;
+  font-weight: 500; */
 }
 .navbar {
-    width: auto;
-    height: 90px;
-    box-shadow: 0 3px 6px #C1C3C736;
+  /* width: auto;
+  height: 90px;
+  box-shadow: 0 3px 6px #c1c3c736; */
 }
 .nav-item {
-    padding: 10px;
+  /* padding: 10px; */
 }
-.nav-item a{
-    text-align: center;
+.nav-item a {
+  /* text-align: center; */
 }
 .btn-nav {
-    margin-left: 51px;
-    background-color: white;
-    border: 1px solid #F47522;
-    color: #F47522 !important;
-    border-radius: 40px;
-    width: 130px;
+  /* margin-left: 51px; */
+  background-color: white;
+  border: 1px solid #f47522;
+  color: #f47522 !important;
+  /* border-radius: 40px;
+  width: 130px; */
+  border-radius: 30px;
+  padding: 4px 34px;
+  margin-left: 2rem;
 }
 .btn-nav:hover {
-    background-color: white;
-    border-color: #F47522;
+  background-color: white;
+  border-color: #f47522;
 }
-.navbar-brand{
-    margin-left: 60px;
+.navbar-brand {
+  margin-left: 60px;
 }
 .brandlogo {
-    width: 110px;
+  /* width: 110px; */
 }
-.navbar-collapse{
-    margin-right: 60px;
+.navbar-collapse {
+  margin-right: 60px;
 }
-.nav-link{
-    color: #19345E;
+.nav-link {
+  /* color: #19345e; */
 }
 .nav-link:hover {
-    color: #F47522;
+  /* color: #f47522; */
 }
 
 /* jumbotron */
 .jumbotron {
-    background-color: #EDF6FF;
-    height: 743px;
+  background-color: #edf6ff;
+  height: 100%; /* 743% 100%*/
+  padding-bottom: 10%; /*++*/
 }
 .info-jumbotron {
-    margin-top: 161px;
+  margin-top: 14%; /* 161px 14%*/
 }
 .jumbotron h4 {
-    text-transform: uppercase;
-    font-family: mulish;
-    font-weight: 900;
+  text-transform: uppercase;
+  font-family: mulish;
+  font-weight: 900;
 }
 .jumbotron h1 {
-    font-family: roboto;
-    font-weight: 700;
+  font-family: roboto;
+  font-weight: 700;
 }
 .iJumbotron {
-    width: 420px;
-    margin-left: 110px;
+  width: 76%; /* 420px jadi 76%*/
+  margin-left: 16%; /* 110px 16%*/
 }
 .tJumbotron {
-    color: #19345E;
-    margin-right: 110px;
+  color: #19345e;
+  margin-right: 110px;
 }
 .tJumbotron h4 {
-    font-size: 25px;
+  font-size: 25px;
 }
 .tJumbotron p {
-    font-size: 17px;
-    font-family: mulish;
-    font-weight: 700;
+  font-size: 17px;
+  font-family: mulish;
+  font-weight: 700;
 }
 .display {
-    font-size: 45px;
+  font-size: 45px;
 }
 .display-4 span {
-    color: #F47522;
+  color: #f47522;
 }
 .tJumbotron a {
-    text-align: center;
-    padding-bottom: 6%;
-    color: #FFFFFF !important;
-    font-family: mulish;
-    font-weight: 700;
-    font-size: 15px;
+  text-align: center;
+  padding-bottom: 6%;
+  color: #ffffff !important;
+  font-family: mulish;
+  font-weight: 700;
+  font-size: 15px;
 }
 .btn-mt {
-    width: 55%;
-    margin-left: -1%;
-    height: 40px;
-    background-color: #F47522;
-    border-radius: 50px;
-    box-shadow: 0 3px 6px #00000029;
+  width: 230px; /* 55% jadi 230px*/
+  /* margin-left: -1%; */
+  height: 40px;
+  background-color: #f47522;
+  border-radius: 50px;
+  box-shadow: 0 3px 6px #00000029;
 }
-.btn-mt img{
-    width: 20px;
+.btn-mt img {
+  width: 20px;
 }
-.btn-mt:hover{
-    color: #F47522;
-    background-color: #F47522;
+.btn-mt:hover {
+  color: #f47522;
+  background-color: #f47522;
 }
-
 
 /* info panel */
-.info-panel{
-    box-shadow: 0 3px 6px #00000019;
-    border-radius: 100px;
-    width: 814px;
-    height: 110px;
-    margin-bottom: 60px;
-    color: #19345E;
+.info-panel {
+  box-shadow: 0 3px 6px #00000019;
+  border-radius: 100px;
+  width: 814px;
+  height: auto;
+  padding: 40px 0 20px 0;
+  margin-bottom: 60px;
+  color: #19345e;
 }
 .panel {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-top: 35px;
-    margin-left: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* margin-top: 35px; */
 }
 .info-panel img {
-    width: 40px;
-    float: left;
-    padding: 8px;
-    background-color: #F47522;
-    border-radius: 50%;
-    margin-right: 10px;
+  width: 40px;
+  float: left;
+  padding: 8px;
+  background-color: #f47522;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .info-panel h4 {
-    font-size: 16px;
-    font-family: roboto;
-    font-weight: 700;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 700;
 }
 .info-panel p {
-    font-size: 14px;
-    font-family: mulish;
-    font-weight: 400;
-    margin-top: -5px;
+  font-size: 14px;
+  font-family: mulish;
+  font-weight: 400;
+  margin-top: -5px;
 }
 .pro {
-    border-right: 1px solid #aaaaaa84;
-    margin-right: 50px;
-    display: block;
-    height: 41px;
+  border-right: 1px solid #aaaaaa84;
+  /* display: block; */
+  /* height: 41px; */
 }
 .exp {
-    border-right: 1px solid #aaaaaa84;
-    margin-right: 50px;
-    display: block;
-    height: 41px;
+  border-right: 1px solid #aaaaaa84;
+  /* display: block; */
+  /* height: 41px; */
 }
-
 
 /* about */
-.pAbout{
-    text-align: center;
-    font-family: mulish;
-    font-size: 45px;
-    font-weight: 700;
-    color: #19345E;
+.pAbout {
+  text-align: center;
+  font-family: mulish;
+  font-size: 45px;
+  font-weight: 700;
+  color: #19345e;
 }
-.bAbout{
-    width: 100%;
+.bAbout {
+  width: 100%;
 }
-.bAbout-left{
-    border-top: 2px solid #F47522;
-    margin-top: -30px;
-    margin-left: 440px;
-    width: 35px;
+.bAbout-left {
+  border-top: 2px solid #f47522;
+  /* margin-top: -30px;
+  margin-left: 440px; */
+  width: 35px;
 }
-.bAbout-right{
-    border-bottom: 2px solid #F47522;
-    margin-top: -2px;
-    margin-left: 640px;
-    width: 35px;
+.bAbout-right {
+  border-bottom: 2px solid #f47522;
+  /* margin-top: -2px;
+  margin-left: 640px; */
+  width: 35px;
 }
 .aJumbotron {
-    background-image: url(/assets/bg-people@2x.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: center;
-    height: 478px;
-    position: relative;
-    border: 1px solid #707070b8;
-    margin-top: 60px;
-    margin-bottom: 60px;
+  background-image: url(/assets/bg-people@2x.png);
+  background-size: cover; /* contai jadi 100% */
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10% 0 10% 0;
+  /* height: 478px; 478px jadi 100%
+  /* position: relative; */
+  border: 1px solid #707070b8;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow: inset 0 0 0 1000px rgba(25, 52, 94, 0.7);
 }
-.aJumbotron::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    box-shadow: inset 0 0 0 1000px rgba(25, 52, 94, 0.7);
-    /* background-color: #19345E;  */
-    position: absolute;
-    bottom: 0;  
-}
+/* .aJumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%; */
+/* box-shadow: inset 0 0 0 1000px rgba(25, 52, 94, 0.7); */
+/* background-color: #19345E;  */
+/* position: absolute;
+  bottom: 0;
+} */
 .pJumbotron {
-    position: absolute;
-    text-align: center;
-    font-family: mulish;
-    color: white;
-    margin-top: -400px;
-    margin-left: 180px;
-    margin-right: 220px;
+  /* position: absolute; */
+  text-align: center;
+  font-family: mulish;
+  color: white;
+  /* margin-top: -400px; */
+  /* margin-left: 20%; 180px jadi 100% */
+  /* margin-right: 20%px; 220px jadi 100% */
 }
 .pJumbotron h4 {
-    font-size: 55px;
-    font-weight: 700;
+  font-size: 55px;
+  font-weight: 700;
 }
 .pJumbotron p {
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* meet our team */
-.pTeam h4{
-    text-align: center;
-    font-family: mulish;
-    font-size: 45px;
-    font-weight: 700;
-    color: #19345E;
+.pTeam h4 {
+  text-align: center;
+  font-family: mulish;
+  font-size: 45px;
+  font-weight: 700;
+  color: #19345e;
 }
 .pTeam p {
-    text-align: center;
-    font-family: mulish;
-    font-weight: 700;
-    font-size: 17px;
-    color: #19345E;
-    margin-top: -5px;
+  text-align: center;
+  font-family: mulish;
+  font-weight: 700;
+  font-size: 17px;
+  color: #19345e;
+  margin-top: -5px;
 }
-.bTeam{
-    width: 100%;
+/* .bTeam {
+  width: 100%;
+} */
+.bTeam-left {
+  border-top: 2px solid #f47522;
+  /* margin-top: -70px; */
+  /* margin-left: 340px; */
+  width: 35px;
 }
-.bTeam-left{
-    border-top: 2px solid #F47522;
-    margin-top: -70px;
-    margin-left: 340px;
-    width: 35px;
+.bTeam-right {
+  border-bottom: 2px solid #f47522;
+  /* margin-top: -2px; */
+  /* margin-left: 740px; */
+  width: 35px;
 }
-.bTeam-right{
-    border-bottom: 2px solid #F47522;
-    margin-top: -2px;
-    margin-left: 740px;
-    width: 35px;
+.img-acc {
+  position: relative;
+  margin-top: -5%;
 }
-.img-acc{
-    position: relative;
-    margin-top: -5%;
+.img-acc img {
+  width: 16%;
 }
-.img-acc img{
-    width: 16%;
+.info-team {
+  margin-bottom: 10%;
 }
-.info-team{
-    margin-bottom: 10%;
+.card {
+  border: none;
+  /* position: absolute; */
+  /* margin-top: -7%; */
 }
-.card{
-    border: none;
-    position: absolute;
-    margin-top: -7%;
-}
-.card:hover{
-    margin-top: -10%;
+.card:hover {
+  margin-top: -10%;
 }
 .card-img-top {
-    border-radius: 0;
-    width: 225px;
-    margin-left: 33px;
-    position: relative;
+  border-radius: 0;
+  width: 225px;
+  margin-left: 33px;
+  position: relative;
 }
 .bCard {
-    border: 10px solid #F47522;
-    width: 225px;
-    height: 265px;
-    position: absolute;
-    z-index: 1;
-    margin-left: 18px;
-    margin-top: 15px;
+  border: 10px solid #f47522;
+  width: 225px;
+  height: 265px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 18px;
+  margin-top: 15px;
 }
-.card-body{
-    text-align: center;
-    margin-top: 19px;
+.card-body {
+  text-align: center;
+  margin-top: 19px;
 }
-.card-body h5{
-    font-family: roboto;
-    font-weight: 700;
-    font-size: 20px;
-    color: #F47522;
+.card-body h5 {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #f47522;
 }
 .card-body p {
-    font-family: poppins;
-    font-size: 15px;
-    color: #19345E;
-    margin-top: -5px;
+  font-family: poppins;
+  font-size: 15px;
+  color: #19345e;
+  margin-top: -5px;
 }
 .btn-card {
-    border: none;
-    margin-right: 3%;
-    float: right;
-    margin-top: 30%;
+  border: none;
+  margin-right: 3%;
+  float: right;
+  /* margin-top: 30%; */
 }
 .info-team a {
-    color: #19345E !important;
-    font-size: 16px;
-    font-family: mulish;
-    font-weight: 500;
+  color: #19345e !important;
+  font-size: 16px;
+  font-family: mulish;
+  font-weight: 500;
 }
 
 /* blog */
-.blogs{
-    margin-top: 10%;
+.blogs {
+  margin-top: 10%;
 }
-.pBlog{
-    text-align: center;
+.pBlog {
+  text-align: center;
 }
 .pBlog h4 {
-    font-family: mulish;
-    font-size: 45px;
-    font-weight: 700;
-    color: #19345E;
+  font-family: mulish;
+  font-size: 45px;
+  font-weight: 700;
+  color: #19345e;
 }
-.bBlog{
-    width: 100%;
-    margin-top: -3%;
+.bBlog {
+  width: 100%;
+  margin-top: -3%;
 }
-.bBlog-left{
-    border-top: 2px solid #F47522;
-    margin-left: 34%;
-    width: 35px;
+.bBlog-left {
+  border-top: 2px solid #f47522;
+  /* margin-left: 34%; */
+  width: 35px;
 }
-.bBlog-right{
-    border-bottom: 2px solid #F47522;
-    margin-left: 63%;
-    width: 35px;
+.bBlog-right {
+  border-bottom: 2px solid #f47522;
+  /* margin-left: 63%; */
+  width: 35px;
 }
 .blog-img-top {
-    width: 285px;
-    margin-bottom: 10%;
+  width: 285px;
+  margin-bottom: 10%;
 }
 .blog-title {
-    font-family: roboto;
-    font-weight: 700;
-    font-size: 20px;
-    margin-right: 10%;
-    color: #19345E;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10%;
+  color: #19345e;
 }
-.larry-text{
-    display: flex;
-    justify-content: space-between;
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 14px;
-    color: #707070;
-    margin-top: 7%;
-    padding-right: 5%;
+.larry-text {
+  display: flex;
+  justify-content: space-between;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #707070;
+  margin-top: 7%;
+  padding-right: 5%;
 }
-.blog-text{
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 14px;
-    color: #19345E;
-    padding-right: 10%;
+.blog-text {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #19345e;
+  /* padding-right: 10%; */
 }
 .btn-blog {
-    font-family: poppins;
-    font-size: 14px;
-    border: none;
-    color: #19345E !important;
-    margin-left: 60%;
-    text-decoration: underline;
+  font-family: poppins;
+  font-size: 14px;
+  border: none;
+  color: #19345e !important;
+  margin-left: 60%;
+  text-decoration: underline;
 }
-
 
 /* footer */
 footer {
-    background-color: #19345E;
-    color: #FFFFFF;
-    width: 100%;
-    height: 141px;
-    margin-top: 20%;
-}
-.brand-img {
-    width: 110px;
-    margin: 42px 0;
-}
-.foo-sosmed{
-    margin: 40px 0;
-}
-.foo-sosmed p {
-    font-family: mulish;
-    font-size: 14px;
-    font-weight: 400;
-    margin-left: 8%;
-}
-.foo-sosmed img {
-    width: 20px;
-    margin-left: 8%;
-    margin-top: -4%;
-}
-.foo-copy{
-    margin-left: 30%;
-    margin-top: 20%;
-}
-.foo-copy p {
-    font-family: mulish;
-    font-weight: 400;
-    font-size: 14px;
+  background-color: #19345e;
+  color: #ffffff;
+  /* width: 100%; */
+  /* height: 141px; */
+  margin-top: 20%;
 }
 
-.d-flex{
-    background-color: #19345E;
+.brand-img {
+  width: 110px;
+  margin: 42px 0;
 }
-.d-flex p {
-    color: white;
+.foo-sosmed {
+  margin: 40px 0;
 }
-.alta{
-    width: 200px;
+.foo-sosmed p {
+  font-family: mulish;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 8%;
+}
+.foo-sosmed img {
+  width: 20px;
+  margin-left: 8%;
+  margin-top: -4%;
+}
+.foo-copy {
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.foo-copy p {
+  font-family: mulish;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.d-flex {
+  /* background-color: #19345e; */
+  display: flex;
+  justify-content: space-between;
+}
+/* .d-flex p {
+  color: white;
+} */
+.alta {
+  width: 200px;
+}
+
+.cst-team-bg {
+  background-image: url("/assets/ornament_batik.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 12.5%;
+}
+
+.cst-mb-1 {
+  margin-bottom: 5%;
 }
