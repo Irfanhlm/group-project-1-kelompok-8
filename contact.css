@@ -4,7 +4,54 @@
     width: 130px;
 }
 .navbar{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #f47522;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f47522;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #19345e;
+}
+
+.navbar-light .navbar-toggler {
+    color: #19345e;
+    border-color: #f47522;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.cst-ms-1 {
+    margin-left: 10%;
+}
+
+.cst-me-1 {
+    margin-right: 10%;
+}
+
+.cst-btn {
+    background-color: #f47522;
+    color: #fff;
+    border-radius: 30px;
+    padding: 4px 34px;
+    margin-left: 2rem;
+}
+.cst-btn:hover{
+    background-color: #f47522;
+    color: #fff;
+    border-color: #f47522;
 }
 
 
@@ -21,38 +68,42 @@ section{
     opacity: 1;
     height: 1px;
     background-color: #F47522;
+    margin-top: 15px;
 }
 .d-flex h3{
-    font-family: mulish;
-    font-weight: 700;
-    font-size: 200%;
-}
-.d-flex{
-    background-color: white !important;
+    font-family: muli;
+    font-weight: 800;
+    /* font-size: 200%; */
 }
 
 
 /* INFO CONTACT */
-.col-lg-4{
+.col-4{
     font-size: 12px;
+    margin-left: 33%;
 }
-.ct-flex img{
-    width: 15px;
-    height: 15px;
-    margin-right: 3%;
-    margin-left: 2%;
-    margin-top: 1%;
+.ctp-1{
+    text-align: center;
+    margin-left: -7%;
 }
 .ct-flex {
     display: flex;
     flex-direction: row;
-    /* margin-left: 4%; */
-    /* margin-top: -6%; */
+    justify-content: center;
+    margin-left: -12%;
+    margin-top: -3%;
+}
+.ct-flex img{
+    width: 15px;
+    height: 15px;
+    margin-right: 1%;
+    margin-left: 2%;
+    margin-top: 1%;
 }
 .img-flex{
     display: flex;
-    /* margin-left: 2%; */
-    /* margin-top: 2%; */
+    margin-left: 2%;
+    margin-top: 1%;
 }
 .img-flex img {
     /* margin-right: 15%; */
@@ -64,86 +115,123 @@ section{
     border-radius: 40px;
     width: 40%;
     height: 40px;
-    margin-top: 5%;
+    margin-top: 0;
     margin-bottom: 18%;
     font-size: 8px;
     background-image: url(/assets/send-mail.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: 3vw;
+    float: right;
 }
 .btn-primary:hover{
     background-color: #F47522;
     border-color: #F47522;
 }
 .col-8{
-    margin-left: 3%;
+    margin-left: 16%;
     font-size: 14px;
 }
+.col-8 p{
+    text-align: center;
+}
 sup {
-        color: #FF0303;
-    }
+    color: #FF0303;
+}
 
 
 /* FOOTER */
 footer {
-    background-color: #19345E;
-    color: #FFFFFF;
-    width: 100%;
-    height: 140px;
+    background-color: #19345e;
+    color: #ffffff;
+    /* width: 100%; */
+    /* height: 141px; */
     margin-top: 20%;
 }
 .brand-img {
-    width: 60px;
-    margin: 48px 0;
+    width: 110px;
+    margin: 42px 0;
 }
-.foo-sosmed{
-    margin: 45px 0;
+.foo-sosmed {
+    margin: 40px 0;
 }
 .foo-sosmed p {
-    font-family: mulish;
-    font-size: 10px;
-    font-weight: 400;
-    margin-left: 0;
+    /* font-family: Arial; */
+    font-size: 14px;
+    /* font-weight: 100; */
+    margin-left: 8%;
 }
 .foo-sosmed img {
-    width: 10px;
-    margin-left: 2%;
-    margin-top: -40%;
+    width: 20px;
+    margin-left: 8%;
+    margin-top: -4%;
 }
-.foo-copy{
+.foo-copy {
     margin-left: 30%;
     margin-top: 20%;
 }
 .foo-copy p {
-    font-family: mulish;
-    font-weight: 400;
-    font-size: 10px;
-    margin-top: 80%;
+    /* font-family: muli; */
+    /* font-weight: 500; */
+    font-size: 14px;
 }
-.d-flex{
-    background-color: #19345E;
+.cst-mt-1 {
+    background-color: #19345e;
+    display: flex;
+    justify-content: space-between;
 }
-.d-flex p {
-    color: white;
+.alta {
+    width: 200px;
+}
+.cst-team-bg {
+    background-image: url("/assets/ornament_batik.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 12.5%;
+}
+.cst-mb-1 {
+    margin-bottom: 5%;
+}
+.cst-arial-reg {
+    font-family: "Arial", sans-serif;
+    font-weight: 100;
+    color: #19345e;
+}
+.cst-w {
+    width: 33.3333%;
 }
 
 
 
+.cst-muli-xbold {
+    font-family: "Muli" f;
+    font-weight: bolder;
+    color: #19345e;
+}
 
+.cst-muli-bold {
+    font-family: "Muli";
+    font-weight: 800;
+    color: #19345e;
+}
 
-
-
+.cst-btn {
+    background-color: #f47522;
+    color: #fff;
+    border-radius: 30px;
+    padding: 4px 34px;
+    margin-left: 2rem;
+}
 
 
 
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
 /* NAVBAR */
-    .navbar-nav {
-        font-family: mulish;
+    /* .navbar-nav {
+        font-family: muli;
         font-size: 15px;
-        font-weight: 700;
+        font-weight: 800;
         margin-right: 3%;
     }
     .navbar {
@@ -181,7 +269,7 @@ footer {
     }
     .nav-link:hover {
         color: #F47522;
-    }
+    } */
 
 
 /* SECTION */
@@ -197,32 +285,35 @@ footer {
         opacity: 1;
         height: 1px;
         background-color: #F47522;
+        margin-top: 6px;
     }
+
     .git {
         margin-bottom: 2%;
         background-color: white !important;
     }
     .d-flex h3{
-        font-family: mulish;
-        font-weight: 700;
-        font-size: 250%;
+        font-family: muli;
+        font-weight: 800;
+        /* font-size: 250%; */
         margin-top: -1%;
     }
 
 
 
 /* info contact */
-    .col-lg-4{
+    .col-4{
         font-family: poppins;
         font-weight: 400;
         font-size: 18px;
+        margin-left: 0;
     }
-    .col-lg-4 img{
+    .col-4 img{
         width: 15px;
         margin-left: 5%;
         margin-top: 8px;
     }
-    .col-lg-4 p{
+    .col-4 p{
         margin-top: 1px;
     }
     .img-flex {
@@ -236,7 +327,9 @@ footer {
     .ct-flex {
         display: flex;
         flex-direction: row;
+        justify-content: start;
         margin-top: -3%;
+        margin-left: 2%;
     }
     .col-8 {
         font-family: poppins;
@@ -244,8 +337,32 @@ footer {
         font-size: 16px;
         padding-left: 5%;
         padding-right: 6%;
-        margin-left: 0%;
+        margin-left: 0;
     }
+    .col-8 p{
+        text-align: left;
+    }
+
+
+
+    .ctp-1{
+        text-align: left;
+        margin-left: 0;
+}
+    .ct-flex img{
+        width: 15px;
+        height: 15px;
+        margin-right: 1%;
+        margin-left: 2%;
+        margin-top: 1%;
+}
+    .img-flex{
+        display: flex;
+        margin-left: 2%;
+        /* margin-top: 2%; */
+}
+
+
 
 
 /* FORM */
@@ -269,6 +386,7 @@ footer {
         background-repeat: no-repeat;
         background-size: 20px;
         background-position: 3vw;
+        float: left;
     }
     .btn-primary:hover{
         background-color: #F47522;
@@ -281,23 +399,23 @@ footer {
 
 /* FOOTER */
     footer {
-        background-color: #19345E;
-        color: #FFFFFF;
-        width: 100%;
-        height: 141px;
+        background-color: #19345e;
+        color: #ffffff;
+        /* width: 100%; */
+        /* height: 141px; */
         margin-top: 20%;
     }
     .brand-img {
         width: 110px;
         margin: 42px 0;
     }
-    .foo-sosmed{
+    .foo-sosmed {
         margin: 40px 0;
     }
     .foo-sosmed p {
-        font-family: mulish;
+        /* font-family: Arial; */
         font-size: 14px;
-        font-weight: 400;
+        /* font-weight: 100; */
         margin-left: 8%;
     }
     .foo-sosmed img {
@@ -305,21 +423,45 @@ footer {
         margin-left: 8%;
         margin-top: -4%;
     }
-    .foo-copy{
+    .foo-copy {
         margin-left: 30%;
         margin-top: 20%;
     }
     .foo-copy p {
-        font-family: mulish;
-        font-weight: 400;
+        /* font-family: muli; */
+        /* font-weight: 500; */
         font-size: 14px;
-        margin-top: 0;
     }
-    .d-flex{
-        background-color: #19345E;
+    .cst-mt-1 {
+        background-color: #19345e;
+        display: flex;
+        justify-content: space-between;
     }
-    .d-flex p {
-        color: white;
+    .alta {
+        width: 200px;
     }
+    .cst-team-bg {
+        background-image: url("/assets/ornament_batik.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 12.5%;
+    }
+    .cst-mb-1 {
+        margin-bottom: 5%;
+    }
+    .cst-arial-reg {
+        font-family: "Arial", sans-serif;
+        font-weight: 100;
+        color: #19345e;
+    }
+    .cst-w {
+        width: 33.3333%;
+    }
+    .cst-muli-bold {
+    font-family: "Muli";
+    font-weight: 800;
+    color: #19345e;
 }
 
+
+}

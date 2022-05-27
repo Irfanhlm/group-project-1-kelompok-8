@@ -1,50 +1,55 @@
 /* navbar */
-.navbar-nav {
-  /* font-family: mulish;
-  font-size: 15px;
-  font-weight: 500; */
-}
-.navbar {
-  /* width: auto;
-  height: 90px;
-  box-shadow: 0 3px 6px #c1c3c736; */
-}
-.nav-item {
-  /* padding: 10px; */
-}
-.nav-item a {
-  /* text-align: center; */
-}
-.btn-nav {
-  /* margin-left: 51px; */
-  background-color: white;
-  border: 1px solid #f47522;
-  color: #f47522 !important;
-  /* border-radius: 40px;
-  width: 130px; */
-  border-radius: 30px;
-  padding: 4px 34px;
-  margin-left: 2rem;
-}
-.btn-nav:hover {
-  background-color: white;
-  border-color: #f47522;
-}
-.navbar-brand {
-  margin-left: 60px;
-}
 .brandlogo {
-  /* width: 110px; */
+    width: 130px;
 }
-.navbar-collapse {
-  margin-right: 60px;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #f47522;
 }
-.nav-link {
-  /* color: #19345e; */
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f47522;
 }
-.nav-link:hover {
-  /* color: #f47522; */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #19345e;
 }
+
+.navbar-light .navbar-toggler {
+    color: #19345e;
+    border-color: #f47522;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.cst-ms-1 {
+    margin-left: 10%;
+}
+
+.cst-me-1 {
+    margin-right: 10%;
+}
+
+.cst-btn {
+    background-color: #f47522;
+    color: #fff;
+    border-radius: 30px;
+    padding: 4px 34px;
+    margin-left: 2rem;
+}
+.cst-btn:hover{
+    background-color: #f47522;
+    color: #fff;
+    border-color: #f47522;
+}
+
 
 /* jumbotron */
 .jumbotron {
@@ -59,6 +64,8 @@
   text-transform: uppercase;
   font-family: mulish;
   font-weight: 900;
+  opacity: 1;
+  color: #19345E;
 }
 .jumbotron h1 {
   font-family: roboto;
@@ -77,8 +84,8 @@
 }
 .tJumbotron p {
   font-size: 17px;
-  font-family: mulish;
-  font-weight: 700;
+  font-family: muli;
+  font-weight: 800;
 }
 .display {
   font-size: 45px;
@@ -90,8 +97,8 @@
   text-align: center;
   padding-bottom: 6%;
   color: #ffffff !important;
-  font-family: mulish;
-  font-weight: 700;
+  font-family: muli;
+  font-weight: 800;
   font-size: 15px;
 }
 .btn-mt {
@@ -108,6 +115,7 @@
 .btn-mt:hover {
   color: #f47522;
   background-color: #f47522;
+  border-color: #f47522;
 }
 
 /* info panel */
@@ -141,8 +149,8 @@
 }
 .info-panel p {
   font-size: 14px;
-  font-family: mulish;
-  font-weight: 400;
+  font-family: muli;
+  font-weight: 500;
   margin-top: -5px;
 }
 .pro {
@@ -159,9 +167,9 @@
 /* about */
 .pAbout {
   text-align: center;
-  font-family: mulish;
+  font-family: muli;
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 800;
   color: #19345e;
 }
 .bAbout {
@@ -205,7 +213,7 @@
 .pJumbotron {
   /* position: absolute; */
   text-align: center;
-  font-family: mulish;
+  font-family: muli;
   color: white;
   /* margin-top: -400px; */
   /* margin-left: 20%; 180px jadi 100% */
@@ -223,15 +231,15 @@
 /* meet our team */
 .pTeam h4 {
   text-align: center;
-  font-family: mulish;
+  font-family: muli;
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 800;
   color: #19345e;
 }
 .pTeam p {
   text-align: center;
-  font-family: mulish;
-  font-weight: 700;
+  font-family: muli;
+  font-weight: 800;
   font-size: 17px;
   color: #19345e;
   margin-top: -5px;
@@ -309,8 +317,8 @@
 .info-team a {
   color: #19345e !important;
   font-size: 16px;
-  font-family: mulish;
-  font-weight: 500;
+  font-family: muli;
+  font-weight: 600;
 }
 
 /* blog */
@@ -321,9 +329,9 @@
   text-align: center;
 }
 .pBlog h4 {
-  font-family: mulish;
+  font-family: muli;
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 800;
   color: #19345e;
 }
 .bBlog {
@@ -394,9 +402,9 @@ footer {
   margin: 40px 0;
 }
 .foo-sosmed p {
-  font-family: mulish;
+  font-family: muli;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 8%;
 }
 .foo-sosmed img {
@@ -409,8 +417,8 @@ footer {
   margin-top: 20%;
 }
 .foo-copy p {
-  font-family: mulish;
-  font-weight: 400;
+  font-family: muli;
+  font-weight: 500;
   font-size: 14px;
 }
 
