@@ -1,5 +1,5 @@
-# group-project-8
-Group 8
+# Group Project 1
+Kelompok 8
 - Irfan Halim Hidayat
 - Vera Soniya
 # Alterra-Halvera
